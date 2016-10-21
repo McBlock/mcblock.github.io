@@ -71,6 +71,35 @@ p.text  {
  font-size: 30px;
  font-family: Arial, Helvetica, sans-serif;
  }
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
 </style>
 
 </head>
@@ -83,15 +112,21 @@ p.text  {
 
 <ul>
   <li><a class="active" href="#home"><p class="nav">Home</p></a></li>
-  <li><a ><p class="nav">/</p></a></li>
-  <li><a href="https://thesecretpenguin.typeform.com/to/bymOU9"><p class="nav">Whitelist Application</p></a></li>
+  
  <li><a ><p class="nav" >/</p></a></li>
   <li><a href="http://www.123contactform.com/form-2258462/ContactUs"><p class="nav" >Contact us</p></a></li>
   <li><a ><p class="nav">/</p></a></li>
   <li><a href="https://thesecretpenguin.typeform.com/to/bymOU9"><p class="nav">YouTuber Application</p></a></li>
 <li><a ><p class="nav">/</p></a></li>
   <li><a href="#about"><p class="nav">About McBlock</p></a></li>
-  
+  <div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
   
   
   </ul>
