@@ -4,7 +4,45 @@
   Beta Page - McBlock
   </title>
   <style>
+body {margin:0;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li.right {
+    float: right;
+}
     
+li.left {
+    float: left;
+}
+li.center {
+    float: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}   
     
     
     
@@ -14,7 +52,14 @@
   </style>
   </head>
   <body>
-    
+
+ <ul>
+  <li class="left"><a class="active" href="#home">Home</a></li>
+  <li class="left"><a href="#news">Contact</a></li>
+   <li class="center"><a href="#contact">McBlock</a></li>
+  <li class="right"><a href="#contact">Applications</a></li>
+  <li class="right"><a href="#about">About</a></li>
+</ul> 
     
     
     
