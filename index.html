@@ -170,7 +170,11 @@ p.text  {
 <ul>
   
 	
-
+<div class="w3-container">
+  <span class="w3-opennav w3-xxlarge" onclick="w3_open()">&#9776;</span>
+  
+  
+</div>
 	<li><a class="active" href="#home"><p class="nav">Home</p></a></li>
    
  <li><a ><p class="nav" >/</p></a></li>
@@ -184,12 +188,7 @@ p.text  {
 
 <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
 
-<div class="w3-container">
-  <span class="w3-opennav w3-xxlarge" onclick="w3_open()">&#9776;</span>
-  
-  
-</div>
-     
+
 <script>
 function w3_open() {
     document.getElementById("mySidenav").style.display = "block";
