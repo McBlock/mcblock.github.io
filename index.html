@@ -153,7 +153,15 @@ p.text  {
 
 </head>
 <body bgcolor="#ecf0f1">
-<center>
+<nav class="w3-sidenav w3-white w3-animate-left" style="display:none;z-index:5" id="mySidenav">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-closenav w3-large">Close &times;</a>
+  <a href="#">Link 1</a>
+  <a href="#">Link 2</a>
+  <a href="#">Link 3</a>
+  <a href="#">Link 4</a>
+  <a href="#">Link 5</a>
+</nav>
 
 <center>
   <img src="mcblockpicture.png" alt="Smiley face">
@@ -169,23 +177,14 @@ p.text  {
 <li><a ><p class="nav">/</p></a></li>
   <li><a href="about.html"><p class="nav">About McBlock</p></a></li>
  
-<nav class="w3-sidenav w3-white w3-animate-left" style="display:none;z-index:5" id="mySidenav">
-  <a href="javascript:void(0)" onclick="w3_close()"
-  class="w3-closenav w3-large">Close &times;</a>
-  <a href="#">Link 1</a>
-  <a href="#">Link 2</a>
-  <a href="#">Link 3</a>
-  <a href="#">Link 4</a>
-  <a href="#">Link 5</a>
-</nav>
+
 
 <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
 
 <div class="w3-container">
   <span class="w3-opennav w3-xxlarge" onclick="w3_open()">&#9776;</span>
   <h2>Page content..</h2>
-  <p>The w3-overlay class can be used to create an overlay effect, when opening the sidenav. The w3-overlay class adds a black background with a 50% opacity to the "page content" - this effect will "highlight" the side navigation</p>
-  <p>Click on the menu icon (&#9776;) to see the effect.</p>
+  
 </div>
      
 <script>
