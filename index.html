@@ -27,20 +27,20 @@ li {
 	 display: inline-block;
     list-style-type: none;
 }
-a:link {
+a.footer:link {
     text-decoration: none;
 }
 
-a:visited {
+a.footer:visited {
     text-decoration: none;
 }
 
-a:hover {
+a.footer:hover {
     text-decoration: underline;
     color: black;
 }
 
-a:active {
+a.footer:active {
     text-decoration: underline;
     color: black;
 }
@@ -94,7 +94,7 @@ body {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: #efefef;
+  background-color: #34495e;
   text-align: center;
 }
 li a:hover {
@@ -211,7 +211,10 @@ p.text  {
 	
 .grow { transition: all .2s ease-in-out; }
 .grow:active { transform: scale(1.5); }
-
+a.footer {
+    border-top: 6px #34495e;
+    
+}
 	
 	
 	</style>
@@ -264,7 +267,10 @@ p.text  {
 	<p class="underneath">Staff</p>  
 	
 </center>	
-	<div class="footer">Copyright <strong>McBlock.co.uk</strong> <a href="index.html">Home</a> <a href="apply.html">Apply</a> <a href="about.html">About</a></div>
+	<div class="footer">Copyright <strong>McBlock.co.uk</strong> 
+		<a class="footer" href="index.html">Home</a> 
+		<a class="footer" href="apply.html">Apply</a> 
+		<a class="footer" href="about.html">About</a></div>
             
 	
 	</body>
