@@ -8,13 +8,79 @@ LYFT BETA
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
   }
+  .nav {
+  background-color: #ffffff;
+  color: #000000;
+  list-style: none;
+  text-align: right;
+  padding: 20px 0 20px 0;
   
+  }
+.nav > li {
+  display: inline-block;
+  padding-right: 50px;
+  
+  }
+.nav > li > a {
+  text-decoration: none;
+  color: #000000;
+  
+}
+.nav > li > a:hover {
+  color: #c1c1c1;
+}
+.logo {
+  color: #000000;
+  float: left;
+  padding-left: 25px;
+  font-size: 16px;
+  font-weight: bold;
+
+}
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color: #ffffff;
+}
+p.text {
+  font-size: 20px;
+  color: white;
+  display: inline-block;
+  float: center;
+  }
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+a:hover {
+  color: #c1c1c1;
+}
   </style>
 </head>
 <body>
 
   <p>LyftMC </p>
-  
+  <nav class="fixed-nav-bar">
+  <ul class="nav">
+
+  <li><a href="#">Home</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="forum.html">Forum</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+
+
+</ul>
+  </nav>
 
 
 
